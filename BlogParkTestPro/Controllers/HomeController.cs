@@ -10,7 +10,7 @@ namespace BlogParkTestPro.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "修改此模板来开始你的ASP.NET MVC应用程序.是";
+            ViewBag.Message = "修改此模板来开始你的ASP.NET MVC应用程序.是发";
 
             return View();
         }
