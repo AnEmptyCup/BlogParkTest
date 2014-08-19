@@ -24,7 +24,7 @@ namespace BlogParkTestPro.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "您的联系页面.是";
+            ViewBag.Message = "您的联系页面.是哈哈哈";
 
             return View();
         }
