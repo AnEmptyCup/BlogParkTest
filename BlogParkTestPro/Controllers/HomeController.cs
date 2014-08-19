@@ -17,7 +17,7 @@ namespace BlogParkTestPro.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "你的应用程序描述页.";
+            ViewBag.Message = "你的应用程序描述页.怎么觉得不对啊";
 
             return View();
         }
