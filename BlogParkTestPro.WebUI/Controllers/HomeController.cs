@@ -40,10 +40,19 @@ namespace BlogParkTestPro.WebUI.Controllers
         [HttpPost]
         public ActionResult Login(UserModels model)
         {
-            if (model.isnextautologin)
-                return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                if (model.isnextautologin)
+                    return RedirectToAction("Index");
+                else
+                    return View();
+            }
             else
-                return View();
+                return RedirectToAction("About");
+        }
+        protected override void HandleUnknownAction(string actionName)
+        {
+            Redirect("/Home/Login");
         }
     }
 }

@@ -1,23 +1,17 @@
 ﻿@{
     Layout = null;
 }
-@model BlogParkTestPro.WebUI.Models.UserModels
+@model BlogParkTestPro.WebUI.Models.UserModels    
+           <script src="~/Scripts/jquery-1.8.2.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
 <!DOCTYPE html>
 
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Login</title>
-    <script src="~/Scripts/jquery-1.8.2.js"></script>
-    <script src="~/Scripts/jquery.validate.min.js"></script>
-    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
-    <script src="~/Scripts/knockout-3.2.0.js"></script>
-    <script type="text/javascript">
-        var viewmodel = {
-            s: ko.observable("true")
-        };
-        ko.applyBindings(viewmodel);
-    </script>
+
 </head>
 <body>
     <form method="post">
@@ -29,9 +23,10 @@
             <label>密码</label>
             <input type="password" name="password" id="password" />&nbsp;<a href="#">重置密码</a><br />
             @Html.ValidationMessageFor(m => m.password)<br />
-            <input type="checkbox" data-bind="value:s" name="isnextautologin" id="isnextauto"> 下次自动登录<br />
+            @Html.CheckBoxFor(m=>m.isnextautologin) 下次自动登录<br />
           <input type="submit" value="登录" name="submit" />&nbsp;&nbsp;&nbsp;<a href="#">返回</a>
         </div>
     </form>
 </body>
 </html>
+ 
