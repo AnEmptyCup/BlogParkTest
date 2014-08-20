@@ -1,0 +1,5 @@
+E:\个人项目文件夹\web项目\BlogPark\BlogParkTestPro.DAL\bin\Debug\BlogParkTestPro.DAL.dll
+E:\个人项目文件夹\web项目\BlogPark\BlogParkTestPro.DAL\bin\Debug\BlogParkTestPro.DAL.pdb
+E:\个人项目文件夹\web项目\BlogPark\BlogParkTestPro.DAL\obj\Debug\BlogParkTestPro.DAL.csprojResolveAssemblyReference.cache
+E:\个人项目文件夹\web项目\BlogPark\BlogParkTestPro.DAL\obj\Debug\BlogParkTestPro.DAL.dll
+E:\个人项目文件夹\web项目\BlogPark\BlogParkTestPro.DAL\obj\Debug\BlogParkTestPro.DAL.pdb
