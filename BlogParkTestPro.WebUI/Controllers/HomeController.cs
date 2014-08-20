@@ -48,7 +48,7 @@ namespace BlogParkTestPro.WebUI.Controllers
                     return View();
             }
             else
-                return RedirectToAction("About");
+                return View();
         }
         protected override void HandleUnknownAction(string actionName)
         {

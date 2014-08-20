@@ -1,5 +1,4 @@
 E:\个人项目文件夹\web项目\BlogPark\BlogParkTestPro.BLL\bin\Debug\BlogParkTestPro.BLL.dll
 E:\个人项目文件夹\web项目\BlogPark\BlogParkTestPro.BLL\bin\Debug\BlogParkTestPro.BLL.pdb
-E:\个人项目文件夹\web项目\BlogPark\BlogParkTestPro.BLL\obj\Debug\BlogParkTestPro.BLL.csprojResolveAssemblyReference.cache
 E:\个人项目文件夹\web项目\BlogPark\BlogParkTestPro.BLL\obj\Debug\BlogParkTestPro.BLL.dll
 E:\个人项目文件夹\web项目\BlogPark\BlogParkTestPro.BLL\obj\Debug\BlogParkTestPro.BLL.pdb
