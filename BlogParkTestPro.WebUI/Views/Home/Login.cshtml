@@ -1,0 +1,37 @@
+﻿@{
+    Layout = null;
+}
+@model BlogParkTestPro.WebUI.Models.UserModels
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <script src="~/Scripts/jquery-1.8.2.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Scripts/knockout-3.2.0.js"></script>
+    <script type="text/javascript">
+        var viewmodel = {
+            s: ko.observable("true")
+        };
+        ko.applyBindings(viewmodel);
+    </script>
+</head>
+<body>
+    <form method="post">
+        <div>
+            <a href="#">登录到博客园</a>&nbsp;&nbsp;<a href="#" target="_blank">立即注册</a><br />
+            <label>用户名</label>
+            <input type="text" name="username" id="username" />&nbsp;<a href="#">找回用户名</a><br />
+            @Html.ValidationMessageFor(m=>m.username)<br />
+            <label>密码</label>
+            <input type="password" name="password" id="password" />&nbsp;<a href="#">重置密码</a><br />
+            @Html.ValidationMessageFor(m => m.password)<br />
+            <input type="checkbox" data-bind="value:s" name="isnextautologin" id="isnextauto"> 下次自动登录<br />
+          <input type="submit" value="登录" name="submit" />&nbsp;&nbsp;&nbsp;<a href="#">返回</a>
+        </div>
+    </form>
+</body>
+</html>
