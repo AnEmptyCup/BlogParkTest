@@ -1,3 +1,10 @@
+﻿Debug/*
+*.pdb  #忽略所有PDB结尾的文件
+*.txt  #忽略所有文本文件
+*.log  #忽略所有日志文件
+*.dll  #忽略所有DLL文件
+*.cache #忽略所有的缓存文件
+*.suo  #忽略项目配置文件
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -26,11 +33,13 @@ $RECYCLE.BIN/
 .LSOverride
 
 # Icon must ends with two \r.
-Icon
-
+Icon
 # Thumbnails
 ._*
 
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+
+
+
