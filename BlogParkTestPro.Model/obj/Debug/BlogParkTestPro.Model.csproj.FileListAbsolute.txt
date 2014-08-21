@@ -7,3 +7,4 @@ D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.Model\bin\Debug\BlogParkTestPro.
 D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.Model\bin\Debug\BlogParkTestPro.Model.pdb
 D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.Model\obj\Debug\BlogParkTestPro.Model.dll
 D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.Model\obj\Debug\BlogParkTestPro.Model.pdb
+D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.Model\obj\Debug\BlogParkTestPro.Model.csprojResolveAssemblyReference.cache

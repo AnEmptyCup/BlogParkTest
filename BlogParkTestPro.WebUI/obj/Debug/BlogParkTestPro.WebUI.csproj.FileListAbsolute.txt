@@ -204,3 +204,5 @@ D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.WebUI\bin\BlogParkTestPro.BLL.dl
 D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.WebUI\bin\BlogParkTestPro.Model.dll
 D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.WebUI\bin\BlogParkTestPro.BLL.pdb
 D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.WebUI\bin\BlogParkTestPro.Model.pdb
+D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.WebUI\bin\BlogParkTestPro.DAL.dll
+D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.WebUI\bin\BlogParkTestPro.DAL.pdb
