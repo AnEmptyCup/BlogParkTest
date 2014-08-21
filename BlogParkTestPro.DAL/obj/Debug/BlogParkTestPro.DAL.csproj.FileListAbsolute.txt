@@ -10,3 +10,5 @@ D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.DAL\obj\Debug\BlogParkTestPro.DA
 D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.DAL\obj\Debug\BlogParkTestPro.DAL.csprojResolveAssemblyReference.cache
 D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.DAL\bin\Debug\BlogParkTestPro.Model.dll
 D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.DAL\bin\Debug\BlogParkTestPro.Model.pdb
+E:\个人项目文件夹\web项目\BlogPark\BlogParkTestPro.DAL\bin\Debug\BlogParkTestPro.Model.dll
+E:\个人项目文件夹\web项目\BlogPark\BlogParkTestPro.DAL\bin\Debug\BlogParkTestPro.Model.pdb

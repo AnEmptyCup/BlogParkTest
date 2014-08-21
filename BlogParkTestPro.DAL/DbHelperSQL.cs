@@ -9,7 +9,7 @@ namespace BlogParkTestPro.DAL
 {
     public class DbHelperSQL
     {
-        public string _connectionString = "";
+        public string _connectionString = "Data Source=localhost;Initial Catalog=BlogPark;User ID=sa;password=!@#123qwe;pooling=false;";
 
         public string ConnectionString
         {

@@ -4,11 +4,14 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using BlogParkTestPro.WebUI.Models;
+using BlogParkTestPro.Model;
+using BlogParkTestPro.BLL;
 
 namespace BlogParkTestPro.WebUI.Controllers
 {
     public class HomeController : Controller
     {
+        MemberSimpleOperationBLL memberbll = new MemberSimpleOperationBLL();
         public ActionResult Index()
         {
             ViewBag.Message = "";
@@ -35,20 +38,23 @@ namespace BlogParkTestPro.WebUI.Controllers
         /// <returns></returns>
         public ActionResult Login()
         {
-            return View();
+            UserModels model = new UserModels { username = "赵玉珍", password = "1234" };
+            return View(model);
         }
         [HttpPost]
         public ActionResult Login(UserModels model)
         {
-            if (ModelState.IsValid)
-            {
-                if (model.isnextautologin)
-                    return RedirectToAction("Index");
-                else
-                    return View();
-            }
+            MemberInfo memberinfo = new MemberInfo();
+            memberinfo.MemberName = model.username;
+            memberinfo.LoginPassword = model.password;
+            bool ischeck = memberbll.CheckMemberCanLogin(memberinfo);
+            if (ischeck)
+                return RedirectToAction("Index");
             else
-                return View();
+            {
+                model.password = "";
+                return View(model); 
+            }
         }
         protected override void HandleUnknownAction(string actionName)
         {

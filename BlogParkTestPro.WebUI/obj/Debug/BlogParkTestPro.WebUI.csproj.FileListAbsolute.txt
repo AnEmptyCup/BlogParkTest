@@ -206,3 +206,9 @@ D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.WebUI\bin\BlogParkTestPro.BLL.pd
 D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.WebUI\bin\BlogParkTestPro.Model.pdb
 D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.WebUI\bin\BlogParkTestPro.DAL.dll
 D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.WebUI\bin\BlogParkTestPro.DAL.pdb
+E:\个人项目文件夹\web项目\BlogPark\BlogParkTestPro.WebUI\bin\BlogParkTestPro.BLL.dll
+E:\个人项目文件夹\web项目\BlogPark\BlogParkTestPro.WebUI\bin\BlogParkTestPro.Model.dll
+E:\个人项目文件夹\web项目\BlogPark\BlogParkTestPro.WebUI\bin\BlogParkTestPro.DAL.dll
+E:\个人项目文件夹\web项目\BlogPark\BlogParkTestPro.WebUI\bin\BlogParkTestPro.BLL.pdb
+E:\个人项目文件夹\web项目\BlogPark\BlogParkTestPro.WebUI\bin\BlogParkTestPro.Model.pdb
+E:\个人项目文件夹\web项目\BlogPark\BlogParkTestPro.WebUI\bin\BlogParkTestPro.DAL.pdb
