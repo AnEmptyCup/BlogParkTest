@@ -9,23 +9,98 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Login</title>
+    <style type="text/css">
+        body {
+            background-color: #F2F2F2;
+        }
+
+        a:link {
+            color: #002C99;
+            font-size: 12px;
+            font-weight: lighter;
+            font-family: "黑体";
+        }
+
+        a:visited {
+            color: #002C99;
+            font-size: 12px;
+            font-weight: lighter;
+            font-family: "黑体";
+        }
+
+        a:hover {
+            color: #C06;
+            font-size: 12px;
+            font-weight: lighter;
+            font-family: "黑体";
+        }
+
+        a:active {
+            color: #002C99;
+            font-size: 12px;
+            font-weight: lighter;
+            font-family: "黑体";
+        }
+
+        #div1 {
+            margin-right: auto;
+            margin-left: auto;
+            height: 350px;
+            width: 400px;
+            background-color: #FFFFFF;
+            margin-top: 50px;
+            border: 1px #BBBBBB solid;
+        }
+
+        #div2 {
+            font-size: 20px;
+            font-weight: 900;
+            padding-top: 3px;
+            padding-left: 50px;
+        }
+
+        .lei1 {
+            color: #990044;
+        }
+
+        .lei2 {
+            color: #999999;
+            font-size: 12px;
+        }
+
+        .lei3 {
+            color: #000;
+            font-size: 13px;
+        }
+    </style>
     <script src="~/Scripts/jquery-1.8.2.js"></script>
     <script src="~/Scripts/jquery.validate.min.js"></script>
     <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
 </head>
-<body style=" vertical-align:top">
-    <form method="post" style="align-content:center;height:170px; width:320px;">
-        <div style=" align-content:center; height:170px; width:320px; ">
+<body>
+    <div id="div1">
+        <div id="div2">
             <a href="#">登录到博客园</a>&nbsp;&nbsp;<a href="#" target="_blank">立即注册</a><br />
-            <label>用户名</label>
-            <input type="text" name="username" id="username" />&nbsp;<a href="#">找回用户名</a><br />
-            @Html.ValidationMessageFor(m => m.username)<br />
-            <label>密码</label>
-            <input type="password" name="password" id="password" />&nbsp;<a href="#">重置密码</a><br />
-            @Html.ValidationMessageFor(m => m.password)<br />
-            @Html.CheckBoxFor(m => m.isnextautologin) 下次自动登录<br />
-            <input type="submit" value="登录" name="submit" />&nbsp;&nbsp;&nbsp;<a href="#">返回</a>
+            <form method="post" id="form1" name="form1">
+                <p class="lei2">
+                    用户名<br />
+                    <input type="text" name="username" id="username" />&nbsp;<a href="#">找回用户名</a><br />
+                    @Html.ValidationMessageFor(m => m.username)<br />
+                </p>
+                <p class="lei2">
+                    密码<br />
+                    <input type="password" name="password" id="password" />&nbsp;<a href="#">重置密码</a><br />
+                    @Html.ValidationMessageFor(m => m.password)<br />
+                </p>
+                <p> @Html.CheckBoxFor(m => m.isnextautologin) 下次自动登录<br /></p>
+                <input type="submit" value="登录" name="submit" />&nbsp;&nbsp;&nbsp;<a href="#">返回</a>
+                <p>
+                    <span style="font-size: 9px">&gt;&gt;</span><a href="#">立即注册</a><br />
+                    <span style="font-size: 9px">&gt;&gt;</span><a href="#">联系我们</a><br />
+                    <span style="font-size: 9px">&gt;&gt;</span><a href="#">网站首页</a><br />
+                </p>
+            </form>
         </div>
-    </form>
+    </div>
 </body>
 </html>
