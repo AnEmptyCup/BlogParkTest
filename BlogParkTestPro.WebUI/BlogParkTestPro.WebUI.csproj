@@ -312,6 +312,16 @@
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BlogParkTestPro.BLL\BlogParkTestPro.BLL.csproj">
+      <Project>{ae4bba51-c818-4104-a406-16184e84746d}</Project>
+      <Name>BlogParkTestPro.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BlogParkTestPro.Model\BlogParkTestPro.Model.csproj">
+      <Project>{2bfa40f0-87ea-46ac-af25-daa2271ad8f9}</Project>
+      <Name>BlogParkTestPro.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

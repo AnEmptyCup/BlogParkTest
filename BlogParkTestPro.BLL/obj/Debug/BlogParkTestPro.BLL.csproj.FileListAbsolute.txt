@@ -6,3 +6,8 @@ D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.BLL\bin\Debug\BlogParkTestPro.BL
 D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.BLL\bin\Debug\BlogParkTestPro.BLL.pdb
 D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.BLL\obj\Debug\BlogParkTestPro.BLL.dll
 D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.BLL\obj\Debug\BlogParkTestPro.BLL.pdb
+D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.BLL\obj\Debug\BlogParkTestPro.BLL.csprojResolveAssemblyReference.cache
+D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.BLL\bin\Debug\BlogParkTestPro.DAL.dll
+D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.BLL\bin\Debug\BlogParkTestPro.Model.dll
+D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.BLL\bin\Debug\BlogParkTestPro.DAL.pdb
+D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.BLL\bin\Debug\BlogParkTestPro.Model.pdb

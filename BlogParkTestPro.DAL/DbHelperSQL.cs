@@ -11,11 +11,15 @@ namespace BlogParkTestPro.DAL
     {
         public string _connectionString = "";
 
-        public ConnectionType ConnectionString
+        public string ConnectionString
         {
-            set
+            get
             {
-                _connectionString = SQLConstant.GetConnectionString(value.ToString());
+                if (string.IsNullOrWhiteSpace(_connectionString))
+                {
+                    _connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["Conn"].ConnectionString;
+                }
+                return _connectionString;
             }
         }
 
@@ -1376,7 +1380,7 @@ namespace BlogParkTestPro.DAL
             {
                 foreach (SqlParameter parameter in cmdParms)
                 {
-         
+
                     if ((parameter.Direction == ParameterDirection.InputOutput || parameter.Direction == ParameterDirection.Input) &&
                         (parameter.Value == null))
                     {
@@ -1717,19 +1721,19 @@ namespace BlogParkTestPro.DAL
             }
         }
 
-        /// <summary>
-        /// 根据基本数据库连接，获取指定数据库的连接字符串
-        /// </summary>
-        /// <param name="connectionType">基本数据库连接</param>
-        /// <param name="dbName">数据库名称</param>
-        /// <returns></returns>
-        internal static string GetDBConnectionString(ConnectionType connectionType, string dbName)
-        {
-            DbHelperSQL help = new DbHelperSQL();
-            help.ConnectionString = connectionType;
-            SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder(help._connectionString);
-            builder.InitialCatalog = dbName;
-            return builder.ConnectionString;
-        }
+        ///// <summary>
+        ///// 根据基本数据库连接，获取指定数据库的连接字符串
+        ///// </summary>
+        ///// <param name="connectionType">基本数据库连接</param>
+        ///// <param name="dbName">数据库名称</param>
+        ///// <returns></returns>
+        //internal static string GetDBConnectionString(ConnectionType connectionType, string dbName)
+        //{
+        //    DbHelperSQL help = new DbHelperSQL();
+        //    help.ConnectionString = connectionType;
+        //    SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder(help._connectionString);
+        //    builder.InitialCatalog = dbName;
+        //    return builder.ConnectionString;
+        //}
     }
 }

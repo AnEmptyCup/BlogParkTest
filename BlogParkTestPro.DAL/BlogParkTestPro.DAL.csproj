@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Transactions" />
     <Reference Include="System.Xml.Linq" />
@@ -40,10 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="DbHelperSQL.cs" />
+    <Compile Include="MemberSimpleOperation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SQLConstant.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BlogParkTestPro.Model\BlogParkTestPro.Model.csproj">
+      <Project>{2bfa40f0-87ea-46ac-af25-daa2271ad8f9}</Project>
+      <Name>BlogParkTestPro.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

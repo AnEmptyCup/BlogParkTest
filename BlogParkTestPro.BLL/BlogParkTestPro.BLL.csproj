@@ -42,6 +42,16 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BlogParkTestPro.DAL\BlogParkTestPro.DAL.csproj">
+      <Project>{5dd2b673-ae46-4178-a6cd-4ba22d35e24d}</Project>
+      <Name>BlogParkTestPro.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BlogParkTestPro.Model\BlogParkTestPro.Model.csproj">
+      <Project>{2bfa40f0-87ea-46ac-af25-daa2271ad8f9}</Project>
+      <Name>BlogParkTestPro.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

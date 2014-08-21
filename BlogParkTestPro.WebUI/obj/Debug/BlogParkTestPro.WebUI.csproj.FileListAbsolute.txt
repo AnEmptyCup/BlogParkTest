@@ -200,3 +200,7 @@ D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.WebUI\bin\zh-Hant\System.Spatial
 D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.WebUI\obj\Debug\BlogParkTestPro.WebUI.csprojResolveAssemblyReference.cache
 D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.WebUI\obj\Debug\BlogParkTestPro.WebUI.dll
 D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.WebUI\obj\Debug\BlogParkTestPro.WebUI.pdb
+D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.WebUI\bin\BlogParkTestPro.BLL.dll
+D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.WebUI\bin\BlogParkTestPro.Model.dll
+D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.WebUI\bin\BlogParkTestPro.BLL.pdb
+D:\MyAppliction\BlogParkTestPro\BlogParkTestPro.WebUI\bin\BlogParkTestPro.Model.pdb
